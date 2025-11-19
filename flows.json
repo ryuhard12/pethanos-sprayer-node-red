@@ -1,0 +1,16 @@
+[
+    {
+        "id": "inject1",
+        "type": "inject",
+        "z": "main",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 200,
+        "y": 200,
+        "wires": []
+    }
+]
