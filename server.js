@@ -6,12 +6,13 @@ const app = express();
 
 // Node-RED settings
 const settings = {
-    httpAdminRoot: "/",
-    httpNodeRoot: "/api",
+    httpAdminRoot: "/red",
+    httpNodeRoot: "/",
     userDir: "./",
     flowFile: "flows.json",
     functionGlobalContext: {}
 };
+
 
 // Create server
 const server = http.createServer(app);
